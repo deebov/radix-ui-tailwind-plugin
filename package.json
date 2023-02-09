@@ -1,5 +1,6 @@
 {
     "name": "taildix",
+    "description": "Tailwind CSS plugin for generating useful CSS selectors for Radix UI",
     "private": true,
     "version": "0.0.0",
     "type": "module",
