@@ -58,23 +58,26 @@ following variants:
 Example:
 
 ```js
-import { Menu } from "@radix-ui/react";
+import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 
 function MyDropdown() {
     return (
-        <Menu>
-            <Menu.Button>More</Menu.Button>
-            <Menu.Items>
-                <Menu.Item>
+        <DropdownMenu.Root>
+            <DropdownMenu.Trigger className="radix-open:bg-gray-100 radix-disabled:cursor-auto radix-disabled:bg-gray-100">
+                More
+            </DropdownMenu.Trigger>
+
+            <DropdownMenu.Content className="radix-open:shadow-xl radix-side-bottom:bottom-0 radix-side-bottom:translate-y-full">
+                <DropdownMenu.Item>
                     <a
-                        className="radix-active:bg-blue-500 radix-active:text-white radix-not-active:bg-white radix-not-active:text-black"
+                        className="radix-checked:text-blue-600 radix-highlighted:bg-blue-500 radix-highlighted:text-white radix-disabled:text-gray-500"
                         href="/account-settings">
                         Account settings
                     </a>
-                </Menu.Item>
+                </DropdownMenu.Item>
                 {/* ... */}
-            </Menu.Items>
-        </Menu>
+            </DropdownMenu.Content>
+        </DropdownMenu.Root>
     );
 }
 ```
