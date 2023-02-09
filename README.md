@@ -1,5 +1,5 @@
 <h3 align="center">
-  tailwix
+  taildix
 </h3>
 
 <p align="center">
@@ -9,7 +9,7 @@
 ## Installation
 
 ```sh
-npm install tailwix
+npm install taildix
 ```
 
 ```js
@@ -20,10 +20,10 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('tailwix')
+    require('taildix')
 
     // Or with a custom prefix:
-    require('tailwix')({ prefix: 'rx' })
+    require('taildix')({ prefix: 'rx' })
   ],
 }
 ```
