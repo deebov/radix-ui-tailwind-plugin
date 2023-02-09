@@ -6,6 +6,13 @@
     "main": "dist/index.cjs",
     "types": "dist/index.d.ts",
     "license": "MIT",
+    "keywords": [
+        "radix-ui",
+        "@radix-ui",
+        "tailwind",
+        "tailwindcss",
+        "tailwindcss-plugin"
+    ],
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build && yarn build:types",
