@@ -1,5 +1,5 @@
 {
-    "name": "taildix",
+    "name": "radix-ui-tailwind-plugin",
     "description": "Tailwind CSS utilities plugin for Radix UI.",
     "version": "0.0.2",
     "type": "module",
