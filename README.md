@@ -1,5 +1,5 @@
 <h3 align="center">
-  taildix
+  radix-ui-tailwind-plugin
 </h3>
 
 <p align="center">
@@ -9,7 +9,7 @@
 ## Installation
 
 ```sh
-npm install taildix
+npm install radix-ui-tailwind-plugin
 ```
 
 ```js
@@ -20,10 +20,10 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('taildix')
+    require('radix-ui-tailwind-plugin')
 
     // Or with a custom prefix:
-    require('taildix')({ prefix: 'rx' })
+    require('radix-ui-tailwind-plugin')({ prefix: 'rx' })
   ],
 }
 ```
