@@ -91,7 +91,7 @@ export = plugin.withOptions<Options>(({ prefix = "radix" } = {}) => {
 
         // Booleans. e.g. `radix-active:underline` `radix-disabled:opacity-50`
         for (let variant of booleanVariants) {
-            addVariant(`${prefix}-${variant}`, [`&[data-${variant}="true"]`, `:where([data-${variant}="true"]) &`]);
+            addVariant(`${prefix}-${variant}`, [`&[data-${variant}]`, `:where([data-${variant}]) &`]);
         }
     };
 });
